@@ -1,0 +1,262 @@
+#header {
+  text-align: center;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+#logo {
+  padding: 0px 10%;
+}
+#tagl {
+  width: 100%;
+}
+#nav {
+  border-top: 3px solid black;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 1px solid black;
+}
+#nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.news {
+  width: 160px;
+}
+
+.news-scroll a {
+  text-decoration: none;
+}
+.dot-sep {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  background-image: url(/img/ic.ico);
+  background-repeat: no-repeat;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+#headline {
+  border-bottom: 1px solid black;
+}
+#headline a {
+  color: black;
+}
+#nav a:hover {
+  cursor: pointer;
+  text-decoration: overline;
+}
+#p1 a {
+  color: black;
+  text-decoration: none;
+}
+#text p {
+  font-size: 1.2em;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1rem;
+  margin-bottom: 2rem;
+}
+ul {
+  list-style: none;
+}
+#footer {
+  padding-top: 3%;
+  background-color: black;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+#foot {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+li:hover {
+  cursor: pointer;
+}
+#footer .fa-brands {
+  border-radius: 10px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px;
+}
+.fab:hover,
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+}
+#footer .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+#footer .fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-brands {
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-btn {
+  width: 45%;
+  max-width: 160px;
+  color: #fff;
+  margin: 20px 10px;
+  text-align: left;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.blu {
+  background-color: #101010;
+  transition: background-color 0.25s linear;
+  border: 1px solid white;
+}
+.app-btn:hover {
+  background-color: #454545;
+  color: white;
+}
+i {
+  width: 20%;
+  text-align: center;
+  font-size: 28px;
+  margin-right: 7px;
+}
+.big-txt {
+  font-size: 17px;
+  text-transform: capitalize;
+}
+#hnav {
+  background-color: black;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+#hnav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#opinion {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+}
+#opinion div {
+  padding: 5px;
+}
+#opinion img:hover,
+#opinion p:hover {
+  cursor: pointer;
+}
+#lat section {
+  background-color: rgb(250, 248, 248);
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+}
+#lat section:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .cards {
+    display: block;
+  }
+  .grid-container {
+    display: block;
+  }
+  #mag img {
+    width: 100%;
+  }
+  #foot {
+    grid-template-columns: auto auto;
+  }
+  #l5 {
+    display: block;
+    text-align: center;
+    margin-left: 50%;
+  }
+  #opinion {
+    display: block;
+  }
+  #opinion div {
+    border-top: 1px solid gainsboro;
+  }
+  .op1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .dot-sep {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-image: url(/img/ic.ico);
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    vertical-align: middle;
+    background-size: 12px;
+  }
+  .op1 img {
+    width: 100%;
+  }
+  #hnav {
+    grid-template-columns: auto auto auto;
+  }
+}
